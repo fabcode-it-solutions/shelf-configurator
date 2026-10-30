@@ -4,8 +4,8 @@
   "description": "Node.js + Express.js project to fetch products from  using GraphQL",
   "main": "index.js",
   "scripts": {
-    "start": "node api.js && node api",
-    "dev": "node api.js && nodemon api"
+    "start": "node init && node api",
+    "dev": "node init && nodemon api"
   },
   "dependencies": {
     "axios": "^1.6.2",
